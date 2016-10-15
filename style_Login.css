@@ -1,0 +1,202 @@
+@import url('reset.css');
+
+@import url('styled-elements.css');
+.main
+{
+	background: #cccccc;
+	margin: 0;
+	padding: 0;
+}
+#header
+{
+	width: auto;
+	float: left;
+}
+#logo
+{
+	height: 130px;
+	width: 275px;
+	position: relative;
+	border: 2px solid red;
+}
+#caption
+{
+	font-size: 20px;
+	padding: 0px;
+	margin:5px;
+	font-weight:bold;
+	text-align: center;
+}
+
+#hor
+{
+	background:#ffcc00;
+	border: 2px solid red;
+	height: 80px;
+	width:78%;
+	margin-left:280px;
+}
+#navigation {
+	display: inline-block;
+	list-style: none;
+	margin: 0px 0 0 0px;
+	padding: 10px;
+}
+
+#navigation li {
+	float: left;
+	padding: 10px;
+}
+
+#navigation li a {
+	color: #8c8c8c;
+	font-family: 'Muli-Light';
+	font-size: 35px;
+	text-decoration: none;
+}
+
+#navigation li a:hover, #navigation li.selected a, #navigation li a.selected {
+	color: #fff;
+	font-size:36px;
+}
+/*
+#navigation2
+{
+	display: block;
+}
+#navigation2 li
+{
+	margin: 10px 0px 0px 400px;
+	font-family: arial;
+	font-size: 20px;
+	float:right;
+}
+#navigation2 li ul
+{
+	display: none;
+}
+#navigation2 li:hover ul
+{
+	display: inline-table;
+	float: right;
+}
+#navigation2 li ul li a
+{
+	font-size: 10px;
+}
+*/
+#hor2
+{
+	top: 0px;
+	margin-left: 280px;
+}
+#navigation2
+{
+	padding: 0px;
+	top: 0px;
+}
+#navigation2 li
+{
+	display:inline-block;
+	list-style: none;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+#navigation2 li a
+{
+	margin-left: 50px;
+	text-decoration: none;
+	color: #003cb3;
+	
+}
+#navigation2 li a:hover
+{
+	font-size: 120%;
+}
+#navigation2 li a:visited
+{
+	color: red;
+}
+
+.box
+{
+	border: 2px solid black;
+	padding: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.boxcontent
+{
+	font-size: 30px;
+	margin-left: 20%;
+}
+.inputbox
+{
+	width:20%;
+	height: 30px;
+	font-size:20px;
+}
+.footer
+{
+}
+#cpy
+{
+	text-align: left;
+	color: #800040;
+	font-size: 21px;
+	margin-left: 20px;
+	text-shadow: 1px 1px;
+}
+#crt
+{
+	float: right;
+	margin-right:20px;
+	font-size: 21px;
+	text-shadow: 1px 1px;
+	
+}
+#crt a
+{
+	text-decoration: none;
+}
+.heading
+{
+	text-align: center; 
+	font-size:40px; 
+	color:#800080;
+	text-decoration: underline;
+}
+.input2
+{
+	font-size:20px;
+}
+.input3
+{
+	margin-left:30%;
+	font-size:25px;
+	
+}
+.heading2
+{
+	text-align: center; 
+	font-size:30px; 
+	color:#804080;
+}
+.tabl
+{
+	width: 80%;
+	border: 2px solid black;
+    border-spacing: 2px;
+	padding: 1.5px;
+	margin-left: 10%; 
+	
+}
+th , td
+{
+	border: 1px solid #40bf80;
+	text-align: center;
+	font-size: 22px;
+	
+}
